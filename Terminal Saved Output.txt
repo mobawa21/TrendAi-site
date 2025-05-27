@@ -1,0 +1,70 @@
+Last login: Tue May 27 20:40:07 on ttys001
+/Users/MoBawa/.zprofile:11: no such file or directory: /opt/homebrew/bin/brew
+MoBawa@Fatens-MacBook-Pro trendai-site % cd ~/trendai-site
+
+MoBawa@Fatens-MacBook-Pro trendai-site % ls
+
+index.html	privacy.html	terms.html
+MoBawa@Fatens-MacBook-Pro trendai-site % cat index.html
+
+MoBawa@Fatens-MacBook-Pro trendai-site % cat privacy.html
+MoBawa@Fatens-MacBook-Pro trendai-site %                 
+cat terms.html
+
+MoBawa@Fatens-MacBook-Pro trendai-site % open index.html
+
+MoBawa@Fatens-MacBook-Pro trendai-site % <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TrendFinder AI</title>
+</head>
+<body>
+  <h1>Welcome to TrendFinder AI</h1>
+  <p>This is the home of the smartest AI tool for TikTok, Amazon & Shopify product research.</p>
+</body>
+</html>
+
+zsh: event not found: DOCTYPE
+MoBawa@Fatens-MacBook-Pro trendai-site % git add .
+git commit -m "Added working HTML to all pages"
+git push origin main
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+MoBawa@Fatens-MacBook-Pro trendai-site % open index.html
+
+MoBawa@Fatens-MacBook-Pro trendai-site % cd ~/trendai-site
+
+MoBawa@Fatens-MacBook-Pro trendai-site % ls
+
+index.html	privacy.html	terms.html
+MoBawa@Fatens-MacBook-Pro trendai-site % cat index.html
+
+MoBawa@Fatens-MacBook-Pro trendai-site % pwd
+ls -l index.html
+cat index.html
+
+/Users/MoBawa/trendai-site
+-rw-r--r--@ 1 MoBawa  staff  0 27 May 20:40 index.html
+MoBawa@Fatens-MacBook-Pro trendai-site % open index.html
+
+MoBawa@Fatens-MacBook-Pro trendai-site % <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrendFinder AI</title>
+</head>
+<body>
+  <h1>Welcome to TrendFinder AI</h1>
+  <p>This is the home of the smartest AI tool for TikTok, Amazon & Shopify product research.</p>
+</body>
+</html>
+
+zsh: event not found: DOCTYPE
+MoBawa@Fatens-MacBook-Pro trendai-site % 
