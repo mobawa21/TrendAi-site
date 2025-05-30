@@ -1,32 +1,19 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "terms.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "privacy.html",
-      "use": "@vercel/static"
-    }
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "terms.html", "use": "@vercel/static" },
+    { "src": "privacy.html", "use": "@vercel/static" },
+    { "src": "tiktokSXWljmfvwOFBzg9jlFmH0I9GUC3G8fRG.txt", "use": "@vercel/static" }
   ],
   "routes": [
+    { "src": "/terms", "dest": "/terms.html" },
+    { "src": "/privacy", "dest": "/privacy.html" },
     {
-      "src": "/terms",
-      "dest": "/terms.html"
+      "src": "/tiktokSXWljmfvwOFBzg9jlFmH0I9GUC3G8fRG.txt",
+      "dest": "/tiktokSXWljmfvwOFBzg9jlFmH0I9GUC3G8fRG.txt"
     },
-    {
-      "src": "/privacy",
-      "dest": "/privacy.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
 
