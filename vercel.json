@@ -4,15 +4,16 @@
     { "src": "index.html", "use": "@vercel/static" },
     { "src": "terms.html", "use": "@vercel/static" },
     { "src": "privacy.html", "use": "@vercel/static" },
-    { "src": "tiktokSXWljmfvwOFBzg9jlFmH0I9GUC3G8fRG.txt", "use": "@vercel/static" }
+    { "src": "tiktok4OWsv8zY8E9oSk61Kb03H6YPSwKhV1Rz.txt", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/terms", "dest": "/terms.html" },
     { "src": "/privacy", "dest": "/privacy.html" },
-    { "src": "/tiktokSXWljmfvwOFBzg9jlFmH0I9GUC3G8fRG.txt", "dest": "/tiktokSXWljmfvwOFBzg9jlFmH0I9GUC3G8fRG.txt" },
+    { "src": "/tiktok4OWsv8zY8E9oSk61Kb03H6YPSwKhV1Rz.txt", "dest": "/tiktok4OWsv8zY8E9oSk61Kb03H6YPSwKhV1Rz.txt" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
+
 
 
 
