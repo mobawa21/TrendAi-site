@@ -9,11 +9,10 @@
   "routes": [
     { "src": "/terms", "dest": "/terms.html" },
     { "src": "/privacy", "dest": "/privacy.html" },
-    {
-      "src": "/tiktokSXWljmfvwOFBzg9jlFmH0I9GUC3G8fRG.txt",
-      "dest": "/tiktokSXWljmfvwOFBzg9jlFmH0I9GUC3G8fRG.txt"
-    },
+    { "src": "/tiktokSXWljmfvwOFBzg9jlFmH0I9GUC3G8fRG.txt", "dest": "/tiktokSXWljmfvwOFBzg9jlFmH0I9GUC3G8fRG.txt" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
+
+
 
